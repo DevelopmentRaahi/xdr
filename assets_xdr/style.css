@@ -2536,6 +2536,7 @@ line-height:normal;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
+  
 }
 
 .services .service-box .icon {
@@ -3119,14 +3120,25 @@ z-index: -2;
 	text-align: center;
 	flex: 1 1 auto;
 		
+  } 
+  .service-item:hover ul li{
+	color: #fff;
   }
  
   .cf-header *{
 	font-family: Space Grotesk;	
   }
-.cf-header h2{
-	font-size: 2.4rem;
-	margin-bottom: 1.5rem;
+.cf-header h4{
+	font-size: 3.4rem;
+	padding: 0rem 1rem;
+	border-radius: 25px;
+	width: fit-content;
+	background:linear-gradient(to right, #fd7d1400, #fd7d1436,#fdaa0f); ;
+}
+.cf-header2 p{
+	font-size: 1.5rem;
+	font-family: Space Grotesk;	
+	/* line-height: 2.5rem; */
 }
  .cf-header h2 + P{
 	font-size: 1.4rem;
@@ -3223,6 +3235,7 @@ z-index: -2;
 	color: #358643;
 	align-self: center;
 }
+
 @media screen and (max-width:900px){
 .ef-content h1,.ef-content p{
 		width: 100%;

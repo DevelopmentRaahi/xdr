@@ -829,19 +829,20 @@ footer,.footer-section{
 .claud-content{
   font-family: Space Grotesk;
   position: relative;
-  background-color: #f8e1c399;
+  background-color: #f8e1c370;
   padding: 1.5rem 0;
 }
 .claud-content h3{
   font-size: 3rem;
   font-weight: 500;
+  font-family: Space Grotesk;
   margin-bottom: 2rem;
   color: #012970;
 }
 .claud-content p{
   font-size: 1.5rem;
   color: #000;
-  width: 80%;
+  width: 85%;
 }
 
 

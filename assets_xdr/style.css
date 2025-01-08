@@ -2857,10 +2857,12 @@ z-index: -2;
 .ef-content h1{
 	font-family: Space Grotesk ;
 	font-size: 3.4rem;
+	font-weight: 600;
 	width: 80%;
+	line-height: 4.5rem;
 }
 .ef-content h1 + p{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	width: 84%;
 }
 .ef-content p + a {
@@ -2871,6 +2873,12 @@ z-index: -2;
 	font-family: Space Grotesk ;
 	/* font-weight: 600; */
 	text-decoration: underline;
+}
+.ef-main .ef-content h1 span{
+	display: inline-block;
+	padding-inline: 0.5rem;
+	/* border-radius: 5px; */
+	background: linear-gradient(to right, #ffffffbe, #fdaa0f55);
 }
 
 .ef-content p + a:hover{
@@ -3242,9 +3250,10 @@ z-index: -2;
 	}
 	.ef-content h1{
 		font-size: 4.5rem;
+		line-height: 5.6rem;
 	}
 	.ef-content h1+ p{
-		width: 98%;
+		width: 90%;
 		font-size: 1.6rem;
 	}
 	.ef-content h1 + p +a{
@@ -3254,9 +3263,13 @@ z-index: -2;
 		margin-top: 3rem;
 		width: 90%;
 	}
+
 	.card-heading ul{	
 	grid-template-columns: repeat(2, 1fr);
 	gap: 15px;
+	}
+	.cf-header h4{
+		font-size: 4rem;		
 	}
 }
 @media screen and (max-width:768px) {
@@ -3278,9 +3291,33 @@ z-index: -2;
 	gap: 5px;
 	}
 	.ef-content h1{
+		font-size: 3.5rem;
+	}
+	.ef-content h1 span{
+		font-size: 3.5rem;
+	}
+	.ef-row-2 h3{
 		font-size: 3rem;
 	}
+	.claud-content p{
+		font-size: inherit;
+	}
 	
+}
+@media screen and (max-width:600px) {
+	.cf-header h4{		
+		width: 80%;
+	}
+	.claud-content h3{
+		font-size: 3rem;
+	}
+.claud-content p{
+		font-size: 1.4rem;
+		width: 100%;
+	}
+	.claud-content img{
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 740px) {

@@ -2866,13 +2866,19 @@ z-index: -2;
 	width: 84%;
 }
 .ef-content p + a {
-
+	background-color: #0e88eb;
+	padding: 0.7rem 1.8rem 0.7rem 1.7rem;
+	color: #ffffff;
 	display: inline-block;
 	margin-top: 1rem;
 	font-size: 1.3rem;
 	font-family: Space Grotesk ;
-	/* font-weight: 600; */
-	text-decoration: underline;
+	transition: all 0.4s linear;
+}
+.ef-content p + a:hover{
+	color: #3d3333;
+	background-color:  #74bcf8;
+	border-radius: 1.8rem;
 }
 .ef-main .ef-content h1 span{
 	display: inline-block;
@@ -2881,9 +2887,7 @@ z-index: -2;
 	background: linear-gradient(to right, #ffffffbe, #fdaa0f55);
 }
 
-.ef-content p + a:hover{
-	color: #f38e0b;
-}
+
 .ef-row-2 h3{
 	font-size: 4.5rem;
 	font-family: Space Grotesk ;

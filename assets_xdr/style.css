@@ -2866,9 +2866,9 @@ z-index: -2;
 	width: 84%;
 }
 .ef-content p + a {
-	background-color: #0e88eb;
+	background-color: #171818;
 	padding: 0.7rem 1.8rem 0.7rem 1.7rem;
-	color: #ffffff;
+	color: #ebebeb;
 	display: inline-block;
 	margin-top: 1rem;
 	font-size: 1.3rem;
@@ -2876,8 +2876,8 @@ z-index: -2;
 	transition: all 0.4s linear;
 }
 .ef-content p + a:hover{
-	color: #3d3333;
-	background-color:  #74bcf8;
+	color: #dadada;
+	background-color:  #2f3031;
 	border-radius: 1.8rem;
 }
 .ef-main .ef-content h1 span{

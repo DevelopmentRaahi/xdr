@@ -3151,6 +3151,7 @@ z-index: -2;
 	font-size: 1.5rem;
 	font-family: Space Grotesk;	
 	/* line-height: 2.5rem; */
+	width: 80%;
 }
  .cf-header h2 + P{
 	font-size: 1.4rem;
@@ -3249,7 +3250,8 @@ z-index: -2;
 }
 
 @media screen and (max-width:900px){
-.ef-content h1,.ef-content p{
+.ef-content h1,
+.ef-content p{
 		width: 100%;
 	}
 	.ef-content h1{
@@ -3279,6 +3281,9 @@ z-index: -2;
 @media screen and (max-width:768px) {
 	html{
 		font-size: 14px;
+	}
+	.cf-header2 p{
+		width: 100%;
 	}
 	.card-heading h4 + p{
 		width: 95%;

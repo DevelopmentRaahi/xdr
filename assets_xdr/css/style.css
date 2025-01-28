@@ -681,7 +681,7 @@ footer,
   transition: 0.3s;
 }
 
-.services .service-item h3 {
+.services .service-item h4 {
   font-size: 24px;
   font-weight: 600;
 }
@@ -824,7 +824,7 @@ footer,
     font-weight: 600;
   }
 
-  .services .service-item h3 {
+  .services .service-item h4 {
     font-weight: 600;
     font-size: 20px;
   }
@@ -931,8 +931,15 @@ footer,
 /*=========================
  affordable price
  ==========================  */
+ #faq h2 {
+  font-family: Space Grotesk;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+ }
 .grid-images h4,
-.price_end h4 {
+.price_end h3 {
   font-family: Space Grotesk;
 }
 

@@ -3263,7 +3263,9 @@ z-index: -2;
 		font-size: 1.6rem;
 	}
 	.ef-content h1 + p +a{
-		font-size: 1.2rem;
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+		border-radius: 0.4rem;
 	}
 	.ef-image img{
 		margin-top: 3rem;
